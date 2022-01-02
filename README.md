@@ -1,3 +1,29 @@
+ATENÇÃO!!!
+JOGAR A PASTA LHC_WEB NA PASTA DO HOST QUE IRA RODAR O SISTEMA
+DEPOIS USAR OS COMANDOS
+chmod -R 777 cache/ *** A DOCUMENTAÇÃO PEDE PARA SER 755 SÓ QUE NÃO FUNCIONA SE NAO TIVER SETADO 777
+DEPOIS MUDAR AS PERMIÇÕES PARA AS PASTAS
+chmod 777 settings/
+chmod -R 777 var/tmpfiles
+chmod -R 777 var/storagetheme
+chmod -R 777 var/storagedocshare
+chmod -R 777 var/storageinvitation
+chmod -R 777 var/bottrphoto
+chmod -R 777 var/botphoto
+chmod -R 777 var/storageadmintheme
+chmod -R 777 var/storageform
+chmod -R 777 var/userphoto
+chmod -R 777 var/storage
+
+COM TODAS AS PERMISSOES SETADAS AGORA VAMOS PARA NEXT
+
+Apos tudo instalado o serviço irá rodar em 
+index.php/site_admin/user/login
+
+no meu caso com servidor XAMPP ficou assim:
+http://localhost/help/index.php/site_admin/user/login
+
+
 Live helper chat
 ==============
 
